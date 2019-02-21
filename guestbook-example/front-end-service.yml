@@ -12,5 +12,5 @@ spec:
       targetPort: 3000
       nodePort: 30001
   selector:
-    name: voting-app-pod
+    name: guestbook-front-end-pod
     app: guestbook-app
